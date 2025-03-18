@@ -1,0 +1,502 @@
+/* Amazon 90s Style CSS */
+
+/* Base containers */
+.nineties-amazon-container {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  /* Header styles */
+  .nineties-amazon-header {
+    width: 100%;
+  }
+  
+  .nineties-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nineties-logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .nineties-user-nav {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .nineties-user-nav a {
+    margin-left: 16px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .nineties-user-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .nineties-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nineties-cart span {
+    margin-right: 4px;
+  }
+  
+  .nineties-sell-button {
+    border: 1px solid #ccc;
+    padding: 2px 8px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Category navigation */
+  .nineties-category-nav {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .nineties-category-button {
+    padding: 4px 16px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-right: 1px solid #808080;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .nineties-category-button.nineties-active {
+    background-color: #00008B;
+    color: white;
+  }
+  
+  /* Subcategory navigation */
+  .nineties-subcategory-nav {
+    display: flex;
+    background-color: #00008B;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    overflow-x: auto;
+  }
+  
+  .nineties-subcategory-nav a {
+    color: white;
+    margin-right: 12px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .nineties-subcategory-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Category header */
+  .nineties-category-header {
+    padding: 8px 16px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nineties-date {
+    font-size: 12px;
+    text-align: right;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .nineties-title-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nineties-category-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 4px 0;
+    text-align: center;
+  }
+  
+  .nineties-sign-in {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 4px;
+  }
+  
+  .nineties-sign-in a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .nineties-sign-in a:hover {
+    text-decoration: underline;
+  }
+  
+  .nineties-special-offer {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  .nineties-special-offer a {
+    color: #0066cc;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nineties-special-offer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Marquee */
+  .nineties-marquee {
+    overflow: hidden;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 4px 0;
+  }
+  
+  .nineties-marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+    color: #FF00FF;
+    font-weight: bold;
+    padding: 0 8px;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  /* Main content layout */
+  .nineties-main-content {
+    display: flex;
+  }
+  
+  /* Sidebar */
+  .nineties-sidebar {
+    width: 180px;
+    background-color: #f5f5f5;
+    border-right: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .nineties-search-box {
+    background-color: #00008B;
+    color: white;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .nineties-search-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .nineties-search-select,
+  .nineties-search-input {
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 8px;
+    padding: 4px;
+    border: 1px solid #808080;
+  }
+  
+  .nineties-search-button {
+    width: 100%;
+    background-color: #FFCC00;
+    border: 1px solid #808080;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px 0;
+    cursor: pointer;
+  }
+  
+  .nineties-browse-box {
+    padding: 8px;
+  }
+  
+  .nineties-browse-title {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #00008B;
+    color: white;
+    padding: 2px 8px;
+    margin-bottom: 8px;
+  }
+  
+  .nineties-browse-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+  }
+  
+  .nineties-browse-list li {
+    margin-bottom: 4px;
+  }
+  
+  .nineties-browse-list a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .nineties-browse-list a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content */
+  .nineties-content {
+    flex-grow: 1;
+    padding: 8px;
+  }
+  
+  .nineties-content-container {
+    display: flex;
+  }
+  
+  .nineties-main-featured {
+    width: 70%;
+    padding-right: 16px;
+  }
+  
+  .nineties-featured-section {
+    margin-bottom: 24px;
+  }
+  
+  .nineties-featured-category {
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .nineties-featured-title {
+    color: #FF6600;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 4px 0 8px 0;
+  }
+  
+  .nineties-featured-content {
+    display: flex;
+  }
+  
+  .nineties-featured-image-container {
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nineties-featured-image {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    margin-bottom: 4px;
+  }
+  
+  .nineties-buy-button-container {
+    text-align: center;
+  }
+  
+  .nineties-buy-button {
+    font-size: 12px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .nineties-buy-button:hover {
+    text-decoration: underline;
+  }
+  
+  .nineties-featured-description {
+    font-size: 12px;
+  }
+  
+  .nineties-featured-description .nineties-read-more {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .nineties-featured-description .nineties-read-more:hover {
+    text-decoration: underline;
+  }
+  
+  .nineties-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+  
+  .nineties-list li {
+    margin-bottom: 4px;
+  }
+  
+  .nineties-list a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .nineties-list a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Right sidebar */
+  .nineties-right-sidebar {
+    width: 30%;
+    border-left: 1px solid #ccc;
+    padding-left: 16px;
+  }
+  
+  .nineties-special-box,
+  .nineties-topsellers-box {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .nineties-special-title,
+  .nineties-topsellers-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .nineties-special-text {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .nineties-special-link-container {
+    text-align: center;
+  }
+  
+  .nineties-special-link {
+    font-size: 12px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .nineties-special-link:hover {
+    text-decoration: underline;
+  }
+  
+  .nineties-topsellers-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 12px;
+  }
+  
+  .nineties-topsellers-list li {
+    margin-bottom: 8px;
+  }
+  
+  .nineties-topsellers-list a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .nineties-topsellers-list a:hover {
+    text-decoration: underline;
+  }
+  
+  .nineties-topsellers-creator {
+    color: #666;
+    margin-left: 4px;
+  }
+  
+  /* Footer */
+  .nineties-footer {
+    border-top: 1px solid #ccc;
+    padding: 16px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .nineties-footer-links {
+    margin-bottom: 8px;
+  }
+  
+  .nineties-footer-links a {
+    color: #0066cc;
+    text-decoration: none;
+    margin: 0 4px;
+  }
+  
+  .nineties-footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .nineties-copyright {
+    color: #666;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .nineties-content-container {
+      flex-direction: column;
+    }
+    
+    .nineties-main-featured,
+    .nineties-right-sidebar {
+      width: 100%;
+      padding-right: 0;
+      border-left: none;
+      padding-left: 0;
+    }
+    
+    .nineties-right-sidebar {
+      margin-top: 16px;
+    }
+    
+    .nineties-main-content {
+      flex-direction: column;
+    }
+    
+    .nineties-sidebar {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nineties-featured-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .nineties-featured-image-container {
+      margin-right: 0;
+      margin-bottom: 8px;
+    }
+    
+    .nineties-top-bar {
+      flex-direction: column;
+    }
+    
+    .nineties-user-nav {
+      margin-top: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .nineties-user-nav a {
+      margin: 4px 8px;
+    }
+  }
