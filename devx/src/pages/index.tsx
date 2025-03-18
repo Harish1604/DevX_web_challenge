@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { toast } from "@/components/ui/use-toast";
+import { useToast } from "devx/src/components/ui/use-toast.ts";
 import { 
   SparklesIcon, 
   ChevronLeftIcon, 
@@ -102,8 +102,8 @@ const Index = () => {
       setActiveEra(index);
       setIsTransitioning(false);
       
-      // Toast notification
-      toast({
+      // useToast notification
+      useToast({
         title: `${eras[index].name}`,
         description: `${eras[index].year}: ${eras[index].description}`,
       });
