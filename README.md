@@ -1,5 +1,11 @@
 # 🕰️ The Evolution of UI – Websites Across Different Eras  
 
+## Team Members 
+- **Anuj A**
+- **Harish J**
+- **Kirla Siva Sai Karthik**
+- **Hari Prasath K**
+  
 Explore how web design has evolved through the years! This interactive website lets users experience design trends from different eras.
 
 ## 🚀 Tech Stack  
