@@ -29,6 +29,9 @@ Explore how web design has evolved through the years! This interactive website l
 ![90s Web Style](devx/screenshots/modern1.png)  
 ![90s Web Style](devx/screenshots/modern2.png)  
 
+### 90s Page
+![90s Web Style](devx/screenshots/WhatsApp%20Image%202025-03-18%20at%2017.14.51_d1b51cf0.jpg)  
+
 
 ### 2000s Style  
 ![90s Web Style](devx/screenshots/2000s.png)  
